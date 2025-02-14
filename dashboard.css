@@ -1,0 +1,235 @@
+.parent-container{
+    background-color: #141322;
+}
+.left-container{
+    background-color: #1D1D41;
+    border-radius: 20px;
+    padding: 20px;
+}
+@media(min-width:767.5px){
+    .left-container{
+        height: 100vh;
+    }
+    .right-container{
+        max-height: 100vh;
+        min-height: 100vh;
+        overflow-y: scroll;
+        overflow-x: unset;
+    }
+    
+    .right-container::-webkit-scrollbar {
+        width: 4px;
+    }
+    
+    .right-container::-webkit-scrollbar-track {
+        background: none;
+    }
+    
+    .right-container::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 6px;
+    }
+    
+   
+}
+
+.right-container{
+    background-color: #141322;
+}
+
+.logo{
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    &:hover
+    {
+        color: #fff;
+    }
+}
+.nav-link.left-nav{
+    background-color: #1D1D41;
+    color: #fff !important;
+    padding: 10px 32px;
+    text-align: start;
+    border-radius: 12px;
+}
+.nav-link.active.left-nav{
+    background-color: #6259E8;
+    font-weight: bold;
+}
+.nav-link.left-nav:hover{
+    background-color: #6259E8;
+    font-weight: bold;
+}
+.welcome-text{
+    font-size: 32px;
+    color: #fff;
+}
+.welcome-para{
+    color: #9691AB;
+}
+.custom-search{
+    background-color: #1D1D41;
+    border: 0;
+    width: 330px;
+}
+
+.custom-search.table-search{
+    background-color: #27264E;
+    width: 200px;
+}
+.cust-search-bg
+{
+    background-color: #27264E;
+    border-radius: 8px;
+}
+.custom-search::placeholder{
+    color: #9691AB;
+    font-size: 14px;
+}
+.search-icon{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+}
+.calendar-icon{
+    position: absolute;
+    left: 15px;
+    top: 13px;
+}
+.cards{
+    background-color: #1D1D41;
+    border-radius: 20px;
+}
+.cards-para{
+    color: #9691AB;
+    font-size: 16px;
+}
+.cards-count{
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+.count-span-positive{
+    background-color: #1F3949;
+    color: #26705B;
+    font-size: 14px;
+    
+}
+.count-span-negative{
+    background-color: #46183D;
+    color: #951B3f;
+    font-size: 14px;
+    
+}
+.custom-drpdown-btn{
+    background-color: #1D1D41;
+    border: 1px solid #3f3f63;
+    font-size: 14px;
+    color: #9691AB;
+}
+.custom-drpdown-btn:hover{
+    background-color: unset;  
+}
+
+.table.custom-table thead th,.table.custom-table tbody td{
+    background-color: #1D1D41 !important;
+}
+.table.custom-table thead th{
+    color: #9691AB;
+    font-size: 14px;
+    font-weight: normal;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+.table.custom-table tbody td{
+    color: #fff !important;
+    font-size: 16px;
+    font-weight: normal;
+    padding: 20px;
+    text-wrap: nowrap;
+}
+.card-design{
+    padding: 25px;
+    border-radius: 30px;
+    background-image: linear-gradient(#8A38F4, #4D63F7);
+}
+.primary-btn{
+    background-color: #6257f1;
+    color: #fff;
+    width: 400px;
+}
+.primary-btn:hover{
+    background-color: #5043ff;
+    color: #fff;
+}
+.btn{
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.secondary-btn{
+    background-color: #1D1D41;
+    color: #fff;
+    border:1px solid #fff;
+    width: 400px;
+}
+.secondary-btn:hover{
+    background-color: #3b3b97;
+    color: #fff;
+}
+.legend{
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #EBB452;
+    border-radius: 50%;
+}
+.progress-container{
+    width: 365px;
+    height: 200px;
+}
+.progress-img{
+    width: 100%;
+    object-fit: cover;
+}
+.progress-percent{
+    position: absolute;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+    background-color:#1D1D41 ;
+    bottom: 20%;
+}
+.arrow-legend{
+    background-color: #63d0f9;
+    width: 55px;
+    height: 55px;
+    display: inline-flex;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center; 
+}
+.arrow-legend.violet{
+    background-color: #6358E5;
+   
+}
+.hamburger-icon
+{
+    filter: invert(100%) sepia(0%) saturate(78%) hue-rotate(10deg) brightness(99%) contrast(103%);
+}
+
+@media screen and (min-width:767.5px) and (max-width:1028px){
+    .nav-link.left-nav
+    {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .custom-search{
+        width: 100%;
+    }
+}
+.cursor-pointer{
+    cursor: pointer;
+}
